@@ -10,11 +10,23 @@
     <h1>Ankit Shukla</h1>
 </body>
     <script>
-        var array = ["Ankit Shukla","Atul Shukla","Aman Pandit"]
+        //   ARRAY LITERAL
+
+        // var array = ["Ankit Shukla","Atul Shukla","Aman Pandit"]
+        // console.log(array)
+        // for (i=0; i < array.length; i++){
+        //     document.write(i,":- ")
+        //     document.write(array+"<br>")
+        // }
+
+        //     ARRAY OBJECT
+
+        var array = new Array("Ankit Shukla","Atul Shukla","Aman Pandit")
+        array.push('Raja')
         console.log(array)
         for (i=0; i < array.length; i++){
             document.write(i,":- ")
-            document.write(array+"<br>")
+            document.write("<h1>"+array+"<br> <br> </h1>")
         }
         
     </script>
