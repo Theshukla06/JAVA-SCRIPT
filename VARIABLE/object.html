@@ -11,9 +11,13 @@
 </body>
     <script>
         var data = {'name':'Ankit Shukla', 'age': 22 ,'city':'Pithampur'}
-        for (const value in data){
-        document.write('<br>'+value)
-        }
+        // for (const value in data){
+        // document.write('<br>'+value)
+        // }
+        document.write(data.name)
+        document.write(data.age)
+        data.name='Ritu'
+        document.write('<br>'+ data.name)
         console.log(data)
     </script>
 </html>
