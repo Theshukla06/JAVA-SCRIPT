@@ -10,14 +10,28 @@
     <h1>OBJECT CREATIONS</h1>
 </body>
     <script>
-        var data = {'name':'Ankit Shukla', 'age': 22 ,'city':'Pithampur'}
-        // for (const value in data){
-        // document.write('<br>'+value)
-        // }
-        document.write(data.name)
-        document.write(data.age)
-        data.name='Ritu'
-        document.write('<br>'+ data.name)
-        console.log(data)
+        // var data = {'name':'Ankit Shukla', 'age': 22 ,'city':'Pithampur'}
+        // // for (const value in data){
+        // // document.write('<br>'+value)
+        // // }
+        // document.write(data.name)
+        // document.write(data.age)
+        // data.name='Ritu'
+        // document.write('<br>'+ data.name)
+        // console.log(data)
+
+        var Animal = new Object()
+        Animal.name = 'Dog'
+        Animal.age = '1 year'
+        Animal.color = 'Black'
+        console.log(Animal)
+
+        // document.write('<h1>'+ Animal.name +'</h1>')
+        for (const value in Animal){
+            // document.write('<br>')
+            document.write('<h1>' +value +" :- " +'</h1>')
+            document.write(Animal[value])
+        }
+        
     </script>
 </html>
